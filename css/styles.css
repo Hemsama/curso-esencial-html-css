@@ -1,0 +1,33 @@
+body {
+  background: #251F24;
+  color: #FFFFFF;
+}
+
+header {
+  font-size: 14px;
+}
+header a {
+  text-decoration: none;
+  color: #A5A3A5;
+}
+
+header ol {
+  color: #A5A3A5;
+}
+
+hr {
+  color: #61616120;
+  border: 1px solid rgba(97, 97, 97, 0.2);
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1,5em;
+}
