@@ -1,0 +1,139 @@
+:root {
+  font-size: 18px;
+  --blanco: #FFFFFF;
+  --gray: #A5A3A5;
+}
+
+.hero{
+  height: 350px;
+  background: linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%);
+}
+
+body {
+  background: #251F24;
+  color: var(--blanco);
+  margin: 0;
+}
+
+header {
+  font-size: 14px;
+  color: var(--gray);
+  position: absolute;
+  left: 0;
+  margin-left: 220px;
+  margin-right: 24px;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--gray);
+  font-family: 'Nunito', sans-serif;
+}
+
+header a:hover {
+  color: var(--blanco);
+}
+
+nav details summary {
+  font-weight: bold;
+  color: var(--blanco);
+}
+
+hr {
+  color: #61616120;
+  border: 1px solid rgba(97, 97, 97, 0.2);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 64px;
+  margin-top: 64px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 64px 0 40px;
+  font-weight: normal;
+}
+
+h3 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-weight: normal;
+  position: sticky;
+  top: 0;
+  background: #251F24;
+}
+
+.section-content {
+  counter-reset: titleList;
+}
+
+.section-content h3 {
+  counter-increment: titleList;
+}
+
+h4 {
+  color: var(--blanco);
+  font-weight: bold;
+}
+
+pre {
+  background: #3A3539;
+  padding: 40px 85px 40px 40px;
+  border-radius: 8px;
+  font-family: 'Nunito', sans-serif;
+  line-height: 24px;
+}
+
+blockquote {
+  font-size: 24px;
+  margin: 0;
+  background:  #3A3539;
+  border-radius: 8px;
+  font-family: 'Nunito', sans-serif;
+  line-height: 24px;
+}
+
+blockquote p {
+  padding: 24px 17px 16px 24px;
+}
+
+blockquote p + p {
+  padding: 0px 406px 24px 24px;
+}
+
+.section-content h3::before {
+  content: counter(titleList, decimal) ". ";
+}
+
+.section-content ol li {
+  line-height: 24px;
+}
+
+.section-content {
+  margin-top: 164px;
+}
+
+.section-content:first-of-type {
+  margin: 0;
+}
+
+.section-content ul li {
+  margin-bottom: 16px;
+}
+
+.section-content img {
+  margin-top: 40px;
+}
+
+.wrapper {
+  width: 902px;
+  margin: auto;
+}
+
+.main-content {
+  padding: 20px;
+}
