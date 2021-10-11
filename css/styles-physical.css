@@ -4,9 +4,22 @@
   --gray: #A5A3A5;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .hero{
   height: 350px;
   background: linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%);
+}
+
+.header {
+  position: sticky;
+  top: 0;
+}
+
+.header-content{
+  position: relative;
 }
 
 body {
@@ -19,10 +32,11 @@ header {
   font-size: 14px;
   color: var(--gray);
   position: absolute;
-  left: 0;
-  margin-left: 220px;
-  margin-right: 24px;
+  left: -218px;
+  width: 188px;
+  top: 64px;
 }
+
 
 header a {
   text-decoration: none;
@@ -34,9 +48,14 @@ header a:hover {
   color: var(--blanco);
 }
 
+header li {
+  margin-bottom: 16px;
+}
+
 nav details summary {
   font-weight: bold;
   color: var(--blanco);
+  line-height: 24px;
 }
 
 hr {
@@ -50,6 +69,7 @@ h1 {
   font-size: 64px;
   margin-top: 64px;
   margin-bottom: 16px;
+  font-weight: normal;
 }
 
 h2 {
@@ -132,8 +152,4 @@ blockquote p + p {
 .wrapper {
   width: 902px;
   margin: auto;
-}
-
-.main-content {
-  padding: 20px;
 }
