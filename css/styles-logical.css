@@ -12,6 +12,9 @@
 body {
   background: #251F24;
   color: var(--blanco);
+  font-family: 'Nunito', sans-serif;
+  margin-block-start: 50px;
+  margin-block-end: 50px;
 }
 
 header {
@@ -22,7 +25,6 @@ header {
 header a {
   text-decoration: none;
   color: var(--gray);
-  font-family: 'Nunito', sans-serif;
 }
 
 header a:hover {
@@ -37,6 +39,10 @@ nav details summary {
 hr {
   color: #61616120;
   border: 1px solid rgba(97, 97, 97, 0.2);
+}
+
+h1, h2, h3 {
+  font-weight: normal;
 }
 
 h1 {
